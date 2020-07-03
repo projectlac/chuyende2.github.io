@@ -1,0 +1,463 @@
+body, *{
+	margin: 0,0;
+	padding: 0,0;
+
+}
+
+
+
+.banner-x{
+	position: relative;
+}
+.logo{
+	position: absolute;
+	top: -8%;
+	left: 2%;
+}
+.logo img{
+	width: 28%!important;
+}
+.body-page{
+	position: relative;
+    background-image: url(images/web/background.png);
+    background-position: center;
+  	background-repeat: no-repeat;
+  	background-size: cover;
+    height: 4157px;
+    margin-top: -16%;
+    z-index: 999;
+    width: 100%;
+}
+.may img{
+	width: 100%;
+	
+}
+.may{
+	position: absolute;
+    top: -5%;
+}
+.thongbao img{
+	width: 100%;}
+
+.thongbao{
+	position: absolute;
+    top: 9%;
+    left: 3%;
+}
+.thongtin-ssr img{
+	width: 90%;
+}
+.thongtin-ssr{
+	position: relative;
+	top: 30%;
+
+}
+/*.thongtin-ssr .bang{
+	height: 90%;
+}*/
+.cottruyen{
+	position: relative;
+}
+.text{
+	position: absolute;
+    top: 27%;
+    left: 12%;
+    width: 250px;
+    text-align: justify;
+    padding: 10px;
+}
+.text p{
+	color: black;
+	font-weight: bold;
+}
+.hoaphong{
+	position: absolute;
+    top: 56%;
+  
+}
+.hoaphong img{
+	width: 100%;
+}
+.hoaphong2{
+	position: absolute;
+    top: 79%;
+  
+}
+.hoaphong2 img{
+	width: 100%;
+}
+.tieude{
+	width: 100%;
+	position: absolute;
+	width: 46% !important;
+    top: -28%;
+    pointer-events: none;
+}
+.anh-hoaphong{
+	position: relative;
+	/*pointer-events: none;*/
+}
+.hinh-yl{
+	margin-top: 10%;
+}
+.nenthongbao{
+	position: relative;
+}
+.noidung-thongbao{
+	width: 86%;
+	position: absolute;
+	top: 18%;
+    left: 7%;
+    z-index: 1;
+}
+.noidung-text p{
+	color: black;
+	margin: 0 0 !important;
+}
+.hel{
+	 letter-spacing:10px;
+	 /*font-size: 20px;*/
+	 font-weight: bold;
+	 color: orange;
+	 margin-bottom: 15px;
+}
+.noidung-text span{
+	float: left;
+	text-align: right;
+	color:#674010;
+	font-weight: bold;
+}
+.noidung-text a:hover{
+	text-decoration: none;
+}
+.banner-tintuc {
+	background: url(images/web/conbar.jpg) no-repeat center center;
+	height: 627px;
+	width: 100%;
+}
+.banner-tintuc img{
+	width: 100%!important;
+}
+.tin-tuc-moi-nhat{
+	padding-bottom: 150px;
+	background: #150c0a;
+	width: 100%;
+	z-index: 1;
+	overflow: hidden;
+	position: relative;
+ 
+}
+.body-tintuc{
+	
+	width: 1265px;
+    margin: 0 auto;
+    margin-top: -380px;
+    min-height: 380px;
+   }
+.box{
+	position: relative;
+    width: 100%;
+    height: 100%;
+    display: block;
+    padding-bottom: 100px;
+    overflow: hidden;
+}
+.top{
+	width: 1265px;
+    height: 358px;
+    background: url(images/web/top.png) no-repeat;
+    position: absolute;
+    z-index: 0;
+    top: 0;
+    left: 0;
+}
+.bot{
+	width: 1262px;
+    height: 72px;
+    background: url(images/web/bot.png) no-repeat;
+    position: absolute;
+    z-index: 1;
+    bottom: -20px;
+    left: 13px;
+}
+.center{
+	width: 1200px;
+    height: 72px;
+    position: absolute;
+    z-index: 0;
+    top: 290px;
+    height: 111680px;
+    left: 35px;
+    background: #b79f8f;
+}
+.content{
+	
+	display: block;
+    position: relative;
+    z-index: 1;
+    padding-top: 83px;
+    overflow: hidden;
+}
+.left{
+	width: 323px;
+    height: 748px;
+    background: url(images/web/left.png) no-repeat;
+    float: left;
+    margin-left: 2px;
+}
+.right{
+	display: block;
+    margin-left: 100px;
+    margin-left: 325px;
+    width: 898px;
+}
+.noidungcua-tintuc{
+	background: #FFF;
+	padding-bottom: 100px;
+}
+.b-l{
+	position: absolute;
+    width: 538px;
+    height: 356px;
+    background: url(images/web/bot-left.png) no-repeat;
+    bottom: 0;
+    left: 50%;
+    margin-left: -960px;
+    z-index:2;
+}
+/*.b-r{
+	position: absolute;
+    width: 538px;
+    height: 356px;
+    background: url(https://sd.res.netease.com/pc/gw/20180807100640/img/b-l_1989fdd.png) no-repeat;
+    bottom: 0;
+    left: 50%;
+    margin-left: -960px;
+    z-index:2;
+}*/
+.b-m{
+	position: absolute;
+    width: 600px;
+    height: 457px;
+    background: url(images/web/bot-right.png) no-repeat;
+    bottom: 0;
+    right: 50%;
+    margin-right: -960px;
+    z-index:2;
+}
+/*position: absolute;
+    width: 600px;
+    height: 457px;
+    background: url(https://sd.res.netease.com/pc/gw/20180807100640/img/b-r_b95acc4.png) no-repeat;
+    bottom: 0;
+    right: 50%;
+    margin-right: -960px;
+    z-index:2;*/
+
+.tieude-tin{
+	font-size: 43px;
+    font-weight: 700;
+    color: #a4946b;
+    margin-left: 60px;
+}
+.tieude-tin span{
+    padding-right: 15px;
+    font-size: 15px;
+    font-weight: 200;
+    float: right;
+    text-align: right;
+    color:#674010;
+
+}
+.tieudecua-tintuc{
+	display: block;
+    height: 107px;
+    line-height: 147px;
+    border-bottom: 1px solid #ccb473;
+}
+
+.noidungcua-tintuc{
+	margin-top: 25px;
+	font-size: 20px;
+	padding:15px;
+	text-align: justify;
+}
+.anh-sukien{
+	position: absolute;
+    top: 18%;
+    width: 88%;
+    left: 6.2%;
+}
+.album .col-md-3{
+	overflow: hidden;
+    height: 180px;
+	    margin-bottom: 10px;
+    padding: 5px;
+}
+.album{
+	position: absolute;
+    top: 18%;
+    width: 79%;
+    left: 11%;
+}
+.album img{
+	width: 100%;
+	overflow: hidden;
+}
+@media screen and (max-width: 1224px){
+	.text{
+		top: 25%;
+   /* left: 12%;*/
+    width: 230px;
+	}
+	.thongtin-ssr {
+    /*position: relative;*/
+    top: 33%;}
+    .album .col-md-3 {
+    height: 168px;
+  }
+/*  #jssor_1{
+
+    width: 964px !important;
+    height: 347px !important;
+    
+  }*/
+}
+.fanpage{
+    width: 280px;
+    margin-left: 43px;
+}
+.fanpage span{
+    
+    font-size: 21px;
+    text-align: center;
+    color: #FFF;
+    display: block;
+    letter-spacing: 2px;
+    padding: 15px;
+
+}
+.fanpage .fp{
+    text-align: center;
+    color: #FFF;
+    display: block;
+    letter-spacing: 2px;
+    padding: 5px;
+}
+@media screen and (max-width: 768px){
+    .body-page{
+        background-image: none;
+        background-color: #403232;
+        margin-top: 0px;
+        height: 3000px;
+    }
+
+    .may{
+        display: none;
+    }
+    .thongbao{
+        top:1%;
+        left: 0;
+    }
+    .hiddenx{
+        display: none;
+    }
+    .thongbao img{
+        height: 407px;
+        z-index: 99;
+    }
+    .hel {
+    letter-spacing: 4.5px;
+    /* font-size: 20px; */
+    font-weight: bold;
+    color: orange;
+    margin-bottom: 0px;
+}
+.thongtin-ssr{
+    background: #674949;
+   
+    top:15%;
+}
+.nenthongbao{
+    
+    z-index: 9
+}
+.noidung-thongbao{
+    z-index: 10;
+}
+.hoaphong2 {
+    position: relative;
+    top: 66%;
+}
+/*#jssor_1 {
+    width:375%  !important;
+    height: 100% !important;
+}*/
+.hoaphong{
+        top: 29%;
+}
+.tieude {
+ /*   width: 100%;*/
+    position: relative;
+    width: 100% !important;
+    z-index: 9;
+    top: -73%;
+    pointer-events: none;
+}
+.album {
+    position: relative;
+    top: 18%;
+    width: 79%;
+    left: 11%;
+}
+.tin-tuc-moi-nhat-mobile{
+    display: inline-block !important;
+}
+}
+.tin-tuc-moi-nhat-mobile{
+    display: none;
+    position: relative;
+    width: 100%;
+    margin: 0 auto;
+    padding: 0;
+}
+.page-news{
+    box-sizing: border-box;
+    position: relative;
+    min-height: 15rem;
+    padding: 1.3rem .4rem .3rem;
+    background: url(https://sd.res.netease.com/m/gw/20181127091330/img/neiye-bg_baf7c91.jpg);
+    background-size: cover!important;
+}
+.page-news-content{
+    overflow: hidden;
+    position: relative;
+}
+.arttitle{
+   /* margin-bottom: .2rem;
+    line-height: .5rem;
+    font-size: .28rem;*/
+    color: #ddd;
+    text-align: center;
+    font-weight: 400;
+}
+
+.artdate{
+   /* margin-bottom: .2rem;
+    line-height: .4rem;
+    font-size: .24rem;*/
+    color: #777;
+    text-align: center;
+}
+.noidungtin{
+
+    color: #ddd;
+}
+.noidungtin img{
+    width: 100%;
+    height: auto;
+}
+.linkTrangchu a{
+   color: #777;
+   margin-left: 15px; 
+}

@@ -1,0 +1,69 @@
+body, html {
+  height: 100%;
+  margin: 0 0 !important;
+}
+.giaodien-admin{
+	background: url(../images/bg.jpg) ;
+	
+
+  /* Full height */
+  height: 100%;
+
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+.nen-admin{
+	position: absolute;
+	padding: 10px 20px;
+	    width: 90%;
+    height: 70%;
+margin: 50px 50px;
+background-color: #fff;
+border-radius: 15px;
+}
+.nen-news{
+	position: absolute;
+	padding: 10px 20px;
+	    width: 90%;
+    height: 85%;
+margin: 50px 50px;
+background-color: #fff;
+border-radius: 15px;
+}
+.role-text{
+	font-size: 25px;
+	color: orange;
+	font-weight: bold;
+	margin: 0 0;
+}
+.role-text a{
+	text-decoration: none;
+	font-size: 15px;
+}
+.tieude-baiviet{
+	text-align: center;
+	font-size: 27px;
+	margin: 0 0;
+	color: orange;
+	font-weight: bold;
+}
+.danhsach-tin{
+	height: 250px;
+	overflow-y: auto;
+}
+.tox-tinymce{
+	height: 350px!important;
+}
+.noidung-moi{
+	height: 350px;
+	/*overflow-y: auto;*/
+}
+.noidung-moi .wrap-input100{
+	height: 30px;
+}
+.noidung-moi .label-input100{
+	top:0;
+}
